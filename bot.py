@@ -5,7 +5,7 @@ import teste
 class Telegram_Bot:
 
     def __init__(self):
-        token = '5403052208:AAEzRFpgU64n_2Ls1BjsS0Smgare4CC6PoM'
+        token = ''
         self.url_base = f'https://api.telegram.org/bot{token}/'
         self.chatter = teste.Chatter()
         self.chatter.massive_train()
